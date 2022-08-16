@@ -1,48 +1,83 @@
-
-## Feature Selection for Machine Learning - Code Repository
+## Feature Engineering for Machine Learning - Code Repository
 
 ## Table of Contents
 
-1. **Basic Selection Methods**
-	1. Removing Constant Features
-	2. Removing Quasi-Constant Features
-	3. Removing Duplicated Features
+1. **Introduction: Variable Types**
+	1. Numerical Variables: Discrete and continuous
+	2. Categorical Variables: Nominal and Ordinal
+	3. Datetime variables
+	4. Mixed variables: strings and numbers
 
-2. **Correlation Feature Selection**
-	1. Removing Correlated Features 
-	2. Basic Selection Methods + Correlation - Pipeline
+2. **Variable Characteristics**
+	1. Missing Data 
+	2. Cardinality
+	3. Category Frequency
+	4. Distributions
+	5. Outliers
+	6. Magnitude
 
-3. **Filter Methods: Univariate Statistical Methods**
-	1. Mutual Information
-	2. Chi-square distribution
-	3. Anova
-	4. Basic Selection Methods + Statistical Methods - Pipeline
+3. **Missing Data Imputation**
+	1. Mean and Median Imputation
+	2. Arbitrary value imputation
+	3. End of Tail Imputation
+	4. Frequent category imputation
+	5. Adding string missing
+	6. Random Sample Imputation
+	7. Adding a missing indicator
+	8. Imputation with Scikit-learn
+	9. Imputation with Feature-engine
 
-4. **Filter Methods: Other Methods and Metrics**
-	1. Univariate roc-auc, mse, etc
-	2. Method used in a KDD competition - 2009
+4. **Multivariate Imputation**
+	1. MICE
+	2. KNN imputation
 
-5. **Wrapper Methods**
-	1. Step Forward Feature Selection
-	2. Step Backward Feature Selection
-	3. Exhaustive Feature Selection
+5. **Categorical Variable Encoding**
+	1. One hot encoding: simple and of frequent categories
+	2. Ordinal encoding: arbitrary and ordered
+	3. Target mean encoding
+	4. Weight of evidence
+	5. Probability Ratio
+	6. Rare Label encoding
+	7. Encoding with Scikit-learn
+	8. Encoding with Feature-engine
+	9. Encoding with category encoders
 
-6. **Embedded Methods: Linear Model Coefficients**
-	1. Logistic Regression Coefficients
-	2. Linear Regression Coefficients
-	3. Effect of Regularization on Coefficients
-	4. Basic Selection Methods + Correlation + Embedded - Pipeline 
+6. **Variable Transformation**
+	1. Log, power and reciprocal
+	2. Box-Cox
+	3. yeo-Johnson
+	4. Transformation with Scikit-learn
+	5. Transformation with Feature-engine
 
-7. **Embedded Methods: Lasso**
-	1. Lasso 
-	2. Basic Selection Methods + Correlation + Lasso - Pipeline 
+7. **Discretisation**
+	1. Arbitrary
+	2. Equal-frequency discretisation
+	3. Equal-width discretisation
+	4. K-means discretisation
+	5. Discretisation with trees
+	6. Discretisation with Scikit-learn
+	7. Discretisation with Feature-engine
 
-8. **Embedded Methods: Tree Importance**
-	1. Random Forest derived Feature Importance
-	2. Tree importance + Recursive Feature Elimination
-	3. Basic Selection Methods + Correlation + Tree importance - Pipeline
+8. **Outliers**
+	1. Capping
+	2. Trimming
 
-9. **Hybrid Feature Selection Methods**
-	1. Feature Shuffling
-	2. Recursive Feature Elimination
-	3. Recursive Feature Addition
+9. **Feature Scaling**
+	1. Standardisation
+	2. MinMaxScaling
+	3. MaxAbsoluteScaling
+	4. RobustScaling
+
+10. **Mixed variables**
+	1. Creating new variables from strings and numbers
+
+11. **Datetime**
+	1. Extracting day, month, week, etc
+	2. Extracting hr, min, sec, etc
+	3. Capturing elapsed time
+	4. Working with timezones
+
+12. **Pipelines**
+	1. Classification Pipeline
+	2. Regression Pipeline
+	3. Pipeline with cross-validation
