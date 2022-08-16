@@ -1,5 +1,7 @@
 ## Feature Engineering for Machine Learning - Code Repository
 
+[<img src="./feml_logo.png" width="248">]
+
 ## Table of Contents
 
 1. **Introduction: Variable Types**
