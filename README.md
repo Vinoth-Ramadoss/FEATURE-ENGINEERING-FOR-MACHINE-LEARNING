@@ -1,6 +1,6 @@
 ## Feature Engineering for Machine Learning - Code Repository
 
-[<img src="./feml_logo.png" width="248">]
+[<img src="./feml_logo.png" width="248">](https://github.com/Vinoth-Ramadoss/FEATURE-ENGINEERING-FOR-MACHINE-LEARNING)
 
 ## Table of Contents
 
